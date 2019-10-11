@@ -16,7 +16,9 @@ const About = () => (
         { property: 'og:image', content: 'http://path/to/image' },
         { property: 'og:description', content: 'description of About' },
       ]}
-    />
+    >
+        <meta name="google-site-verification" content="wN9NyQArWBo-TmqcpD5QP8wzvRSSJ1pAkS9eFUH-I3E" />
+    </Helmet>
   </div>
 );
 
