@@ -39,6 +39,7 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/performance" component={Performance}/>
+            <Route path="/performance/:count" component={Performance}/>
           </div>
         </Router>
       </header>
