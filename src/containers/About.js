@@ -21,6 +21,7 @@ const About = () => (
         { property: 'og:description', content: 'description of About' },
       ]}
     />
+      <h2>About</h2>
   </div>
 );
 
