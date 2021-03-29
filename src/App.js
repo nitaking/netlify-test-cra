@@ -8,7 +8,8 @@ import {
 import './App.css';
 import {
   Home,
-  About
+  About,
+  Performance,
 } from './containers';
 
 function App() {
@@ -32,10 +33,13 @@ function App() {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
+              <li><Link to="/performance">Performance</Link></li>
             </ul>
             <hr/>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
+            <Route path="/performance" component={Performance}/>
+            <Route path="/performance/:count" component={Performance}/>
           </div>
         </Router>
       </header>
